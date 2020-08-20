@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import SeasonDisplay from "./SeasonDisplay";
 import Spinner from "./Spinner";
 
+//Main app component
 class App extends React.Component {
   state = { lat: null, errorMessage: "" };
 
